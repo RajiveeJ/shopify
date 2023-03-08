@@ -2,9 +2,14 @@ import { useContext } from "react";
 import { Button, Card, CardText, CardTitle, Col, Row } from "reactstrap";
 import ProductContext from "./Context";
 
+import { useNavigate } from "react-router-dom";
 export default function Cart() {
   const context = useContext(ProductContext);
-  
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `/checkout`; 
+    navigate(path);
+  }
   return (
     <div>
       <div>
@@ -45,15 +50,21 @@ export default function Cart() {
           : "No Products in the cart"}
           </div>
          
-           
-          <a class="nav-link" href="/checkout">Pay now </a>
+          <Button color="primary" className="px-4"
+            onClick={routeChange}
+              >
+              Pay now
+            </Button>
           
-         
+        
     </div>
+
     
     
   );
   
- 
+  
+    
+  
 
 }
