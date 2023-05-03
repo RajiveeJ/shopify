@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Home from '../Home'
-
+import { Link } from "react-router-dom";
 import "../styles.css";
 // import Signup from "./Signup";
 
@@ -71,7 +71,8 @@ function Login(){
         </div>
           </form>
         
-        Do not have account?&nbsp;&nbsp;&nbsp;<a className="signup" href="/signup">Signup</a>
+        Do not have account?&nbsp;&nbsp;&nbsp;<Link to="/signup">Signup</Link>
+
 
         <br />
         Demo username:admin@gmail.com pwd: admin123
