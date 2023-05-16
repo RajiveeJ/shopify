@@ -79,7 +79,7 @@ function Login(){
 
 
         <br />
-        Demo username:admin@gmail.com pwd: admin123
+        Demo username:admin@gmail.com|demo@gmail.com pwd: admin123|demo123
         
     </div>
   );
