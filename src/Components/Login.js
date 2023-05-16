@@ -15,7 +15,11 @@ function Login(){
     {
       username: "admin@gmail.com",
       password: "admin123"
-    }
+    },
+        {
+      username: "demo@gmail.com",
+      password: "demo123"
+    }  
   ];
 
   const errors = {
