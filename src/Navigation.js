@@ -28,13 +28,13 @@ function Navigation(args) {
               <li class="nav-item"><Link to="/products">Home</Link></li>
             </NavItem>
             <NavItem>
-              <li class="nav-item"><a class="nav-link" href="/products/smartphones">SmartPhones</a></li>
+              <li class="nav-item"><Link to="/products/smartphones">SmartPhones</Link></li>
             </NavItem>
             <NavItem>
-              <li class="nav-item"><a class="nav-link" href="/products/laptops">Laptops</a></li>
+              <li class="nav-item"><Link to="/products/laptops">Laptops</Link></li>
             </NavItem>
             <NavItem>
-              <li class="nav-item"><a class="nav-link" href="/products/fragrances">Fragrances</a></li>
+              <li class="nav-item"><Link to="/products/fragrances">Fragrances</Link></li>
             </NavItem>
             <NavItem>
               <Link to="/mycart">Cart({context.cart.length})</Link>
