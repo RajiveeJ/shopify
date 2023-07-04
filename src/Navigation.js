@@ -25,7 +25,7 @@ function Navigation(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
           <NavItem>
-              <li class="nav-item"><a class="nav-link" href="/products">Home</a></li>
+              <li class="nav-item"><Link to="/products">Home</Link></li>
             </NavItem>
             <NavItem>
               <li class="nav-item"><a class="nav-link" href="/products/smartphones">SmartPhones</a></li>
