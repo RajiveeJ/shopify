@@ -4047,6 +4047,10 @@ textarea.form-control-lg {
   border-color: #dee2e6 #dee2e6 #fff;
   text-decoration: none;
 }
+.nav-item:link{
+color: #000;
+text-decoration: none;
+}
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-left-radius: 0;
