@@ -25,19 +25,19 @@ function Navigation(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
           <NavItem>
-              <li class="nav-item"><Link to="/products">Home</Link></li>
+              <li class="nav-item"><Link class="nav-link" to="/products">Home</Link></li>
             </NavItem>
             <NavItem>
-              <li class="nav-item"><Link to="/products/smartphones">SmartPhones</Link></li>
+              <li class="nav-item"><Link class="nav-link" to="/products/smartphones">SmartPhones</Link></li>
             </NavItem>
             <NavItem>
-              <li class="nav-item"><Link to="/products/laptops">Laptops</Link></li>
+              <li class="nav-item"><Link class="nav-link" to="/products/laptops">Laptops</Link></li>
             </NavItem>
             <NavItem>
-              <li class="nav-item"><Link to="/products/fragrances">Fragrances</Link></li>
+              <li class="nav-item"><Link class="nav-link" to="/products/fragrances">Fragrances</Link></li>
             </NavItem>
             <NavItem>
-              <Link to="/mycart">Cart({context.cart.length})</Link>
+              <Link class="nav-link" to="/mycart">Cart({context.cart.length})</Link>
               
             </NavItem>
             Total : {context.cartValue}
