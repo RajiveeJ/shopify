@@ -12,10 +12,7 @@ function Login(){
 
   // User Login info
   const database = [
-    {
-      username: "admin@gmail.com",
-      password: "admin123"
-    },
+    
         {
       username: "demo@gmail.com",
       password: "demo123"
@@ -79,7 +76,7 @@ function Login(){
 
 
         <br />
-        Demo username:admin@gmail.com|demo@gmail.com pwd: admin123|demo123
+        Demo username:demo@gmail.com pwd: demo123
         
     </div>
   );
